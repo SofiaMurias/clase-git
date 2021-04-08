@@ -1,0 +1,25 @@
+.prueba {
+  background-color: lightblue;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.rio {
+  width: 300px;
+  height: 200px;
+}
+
+.prueba-caja {
+  background-color: lightgreen;
+  width: 100px;
+  height: 100px;
+  padding: 100px;
+  border: 50px;
+  box-sizing: content-box;
+  margin: auto;
+}
+.gatito {
+  height: 100px;
+  width: 100px;
+}

@@ -1,0 +1,25 @@
+.box {
+  background-color: lightseagreen;
+  height: 250px;
+  width: 400px;
+  padding: 20px;
+  border: solid 20px red;
+  box-sizing: border-box;
+}
+.linea {
+  background-color: lime;
+}
+.box:hover {
+  background-color: mediumslateblue;
+}
+.main {
+  width: 400px;
+  height: 500px;
+  border: solid 5px black;
+}
+
+.hero {
+  background-color: red;
+  border: solid 5px;
+  margin-top: 10px;
+}
