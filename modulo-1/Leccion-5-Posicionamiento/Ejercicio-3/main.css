@@ -1,0 +1,9 @@
+.cabecera {
+  position: fixed;
+  background-color: blueviolet;
+}
+
+.text {
+  position: relative;
+  top: 150px;
+}

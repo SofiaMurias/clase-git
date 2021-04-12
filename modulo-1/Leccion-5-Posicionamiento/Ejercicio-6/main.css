@@ -1,0 +1,25 @@
+.text{
+    position:relative;
+    border:blue 2px solid
+}
+
+.article{
+    position: relative;
+    border: red 2px solid
+}
+
+.last{
+    position: relative;
+    border: 2px black solid;
+    
+    
+}
+
+
+.cookies {
+    width: 100vw;
+  border: black 5px solid;
+  bottom: 0px;
+  position: fixed;
+  background-color: yellow; */
+}
