@@ -1,0 +1,22 @@
+.title {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(238, 210, 210);
+}
+
+@media all and (min-width: 600px) {
+  .title {
+    background: red;
+  }
+}
+
+@media all and (min-width:) {
+    .title {
+      background: yellow;
+    }
+    
+@media all and (min-width: 768px) {
+    .title {
+      background: green;
+    }
