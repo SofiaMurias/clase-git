@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.body {
+  background-color: grey;
+}
+
+.menu-list {
+  background-color: greenyellow;
+}
+
+.content {
+  background-color: yellow;
+}
+
+.related {
+  background-color: #666;
+}
+
+@media all and (min-width: 480px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu {
+    width: 25%;
+  }
+  .main-colum {
+    width: 75%;
+  }
+  .box {
+    display: block;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+  }
+
+  @media all and (min-width: 1200px) {
+    .main-colum {
+      display: flex;
+    }
+    .content {
+      padding-right: 20px;
+    }
+
+    .menu {
+      padding-right: 20px;
+    }
+  }
+}
+@media all and (max-width: 480px) {
+  .box {
+    display: none;
+  }
+}
