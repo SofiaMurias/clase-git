@@ -1,0 +1,40 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.container {
+  border: solid 2px black;
+  max-width: 400px;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.radio {
+  display: inline;
+  margin-bottom: 15px;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background-color: darkgreen;
+  color: white;
+  font-size: 20px;
+}
+
+.accept {
+  display: inline;
+  margin-top: 10px;
+}
