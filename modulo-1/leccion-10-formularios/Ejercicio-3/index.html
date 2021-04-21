@@ -10,79 +10,66 @@
     <title>Document</title>
 </head>
 
-<body class="container">
-    <header>
-        <h1>Create an account</h1>
-        <h2>It´s free anda always will be</h2>
-    </header>
+<body>
 
-    <form class="formulario" action="/signup" method="post">
-
-        <input class="item" placeholder="First name" name="first name" type="text">
-        <input class="item" placeholder="Surnname" name="Surname" type="text">
-        <input class="item" placeholder="Email or mobile number" name="email or mobile number" type="email">
-        <input class="item" placeholder="Re-enter email or mobile number" name="re-enter email or mobile number"
-            type="email">
-        <input class="item" placeholder="pasword" name="pasword" type="password">
-
-        <input class="item" type="number" id="height" name="height" placeholder="Write here your height" value="150"
-            min="50cm" max="250cm">
-
-        <label for="comments">Comentarios</label>
-        <textarea id="comments" name="comments" rows="8" cols="40"></textarea>
-
-        <div class="accept">
-            <input class="item" type="checkbox" name="aceept">
-            <label for="Acept terminos de use"> Acepto los términos de uso</label>
-
-        </div>
-
-        <label for="Brithday">Brithday </label>
-        <section class="date">
-
-            <select class="item" id="Brithday" name="brithday">
-                <option value="1"> 1</option>
-                <option value="2"> 2</option>
-                <option value="3"> 3</option>
-                <option value="4"> 4</option>
-                <option value="5"> 5</option>
-            </select>
-            <select class="item" id="Month" name="Month">
-                <option value="Enero"> Enero</option>
-                <option value="febrero"> febrero</option>
-                <option value="marzo"> marzo</option>
-                <option value="abril"> abril</option>
-                <option value="mayo"> mayo</option>
-            </select>
-            <select class="item" id="Year" name="Year">
-                <option value="Enero"> Enero</option>
-                <option value="febrero"> febrero</option>
-                <option value="marzo"> marzo</option>
-                <option value="abril"> abril</option>
-                <option value="mayo"> mayo</option>
-            </select>
-            <p>Why do i need to provide my date of birth?</p>
-        </section>
-
-        <section class="radio">
-            <label for="Female">Female </label>
-            <input id="female" type="radio" value="female" name="female">
-            <label for="male">Male </label>
-            <input id="male" type="radio" value="male" name="male">
-        </section>
-
-        <label for="reset por defecto">Resetear a los valores por defecto</label>
-        <input class="item" type="reset" value="Restaurar valores por defecto" />
-
-
-        <div>
-
-            <button class="button" type="submit">Create an account</button>
-
-        </div>
-        <input type="hidden" id="nav" name="nav" value="chrome" />
-
-    </form>
+    <section class="container">
+        <header>
+            <h1>Create an account</h1>
+            <h2>It´s free anda always will be</h2>
+        </header>
+        <form class="formulario" action="/signup" method="post">
+            <input class="item" placeholder="First name" name="first name" type="text">
+            <input class="item" placeholder="Surnname" name="Surname" type="text">
+            <input class="item" placeholder="Email or mobile number" name="email or mobile number" type="email">
+            <input class="item" placeholder="Re-enter email or mobile number" name="re-enter email or mobile number"
+                type="email">
+            <input class="item" placeholder="pasword" name="pasword" type="password">
+            <input class="item" type="number" id="height" name="height" placeholder="Write here your height" value="150"
+                min="50" max="250">
+            <label for="comments">Comentarios</label>
+            <textarea id="comments" name="comments" rows="8" cols="40"></textarea>
+            <fieldset class="accept">
+                <input class="item" type="checkbox" name="aceept">
+                <label for="Acept terminos de use"> Acepto los términos de uso</label>
+            </fieldset>
+            <label for="Brithday">Brithday </label>
+            <section class="date">
+                <select class="item" id="Brithday" name="brithday">
+                    <option value="1"> 1</option>
+                    <option value="2"> 2</option>
+                    <option value="3"> 3</option>
+                    <option value="4"> 4</option>
+                    <option value="5"> 5</option>
+                </select>
+                <select class="item" id="Month" name="Month">
+                    <option value="Enero"> Enero</option>
+                    <option value="febrero"> febrero</option>
+                    <option value="marzo"> marzo</option>
+                    <option value="abril"> abril</option>
+                    <option value="mayo"> mayo</option>
+                </select>
+                <select class="item" id="Year" name="Year">
+                    <option value="Enero"> Enero</option>
+                    <option value="febrero"> febrero</option>
+                    <option value="marzo"> marzo</option>
+                    <option value="abril"> abril</option>
+                    <option value="mayo"> mayo</option>
+                </select>
+                <p>Why do i need to provide my date of birth?</p>
+            </section>
+            <section class="radio">
+                <label for="Female">Female </label>
+                <input id="female" type="radio" value="female" name="female">
+                <label for="male">Male </label>
+                <input id="male" type="radio" value="male" name="male">
+            </section>
+            <input class="item" type="reset" value="Restaurar valores por defecto" />
+            <div>
+                <button class="button">Create an account</button>
+            </div>
+            <input type="hidden" id="nav" name="nav" value="chrome" />
+        </form>
+    </section>
 
 
 
