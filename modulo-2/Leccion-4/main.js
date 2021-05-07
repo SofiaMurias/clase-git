@@ -47,6 +47,10 @@ function getEl(a){
 const  clase = getEl('.tittle')
 console.log(clase);
 
+//Ejercio 6
+
+
+
 // Ejercicio 7
 
 function getEl(a){
